@@ -16,6 +16,9 @@ print("Median: ", df["Age"].median())
 #mode
 print("Mode: ", df["Age"].mode())
 
+#variance
+print("Variance: ", df["Age"].var())
+
 #range
 max = df["Age"].max()
 min = df["Age"].min()
