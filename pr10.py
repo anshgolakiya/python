@@ -9,9 +9,14 @@ print(arr)
 #indexing
 print("element at index (0,1):",arr[0,1])
 
+#slicing
+print("slicing :")
+print(arr[0,:])
+print(arr[:,:2])
+
 #broadcasting
 print("Broadcasting:")
-print(arr + 10)
+print(arr + 10) #it is a feature of numpy
 
 #math operations
 print("Math Operations:")
