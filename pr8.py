@@ -2,7 +2,7 @@ import pandas as pd
 
 df = pd.read_csv("employee.csv")
 
-data = df["Age"].dropna()
+df["Age"].dropna()
 
 #mean
 print("Mean: ", df["Age"].mean())
