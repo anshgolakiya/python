@@ -94,12 +94,20 @@ industries = df["industry_normalized"].unique()
 
 def recommend(movie_name, count=15):
 
+    # Convert count to integer
+    count = int(count)
+
+    # Make sure count is positive
+    if count <= 0:
+        count = 15
+
     # Normalize user input
     user_input = movie_name.strip().lower()
 
-    # --------------------------------
+
+    # ==============================
     # CHECK IF USER ENTERED INDUSTRY
-    # --------------------------------
+    # ==============================
 
     if user_input in industries:
 
@@ -116,11 +124,10 @@ def recommend(movie_name, count=15):
         print("\nRecommended Movies")
         print("------------------")
         print("Industry:", user_input.title())
-
         print()
 
-        # Display different movies
-        for i, row in industry_movies.head(count).iterrows():
+        # Display movies
+        for _, row in industry_movies.head(count).iterrows():
 
             print(
                 f"{row['title']} "
@@ -130,32 +137,38 @@ def recommend(movie_name, count=15):
         return
 
 
-    # --------------------------------
+    # ==============================
     # CHECK IF USER ENTERED MOVIE
-    # --------------------------------
+    # ==============================
 
     if user_input not in title_index:
 
-        print("\nMovie or Industry not found.")
+        # Movie not found
+        # Recommend random movies
 
-        print("\nAvailable Industries:")
+        random_movies = df.sample(
+            n=min(count, len(df)),
+            random_state=None
+        )
 
-        for industry in sorted(industries):
-            print("-", industry.title())
+        print("\nMovie not found.")
+        print("Here are some random movie recommendations:")
+        print("------------------")
+        print()
 
-        print("\nExample:")
-        print("Bollywood")
-        print("Hollywood")
-        print("Marvel")
-        print("DC")
-        print("Animation")
+        for _, row in random_movies.iterrows():
+
+            print(
+                f"{row['title']} "
+                f"({row['industry']})"
+            )
 
         return
 
 
-    # --------------------------------
+    # ==============================
     # MOVIE RECOMMENDATION
-    # --------------------------------
+    # ==============================
 
     index = title_index[user_input]
 
@@ -170,9 +183,14 @@ def recommend(movie_name, count=15):
 
     for i in movie_indices:
 
+        # Don't recommend the same movie
+        if i == index:
+            continue
+
         print(
             f"{df.iloc[i]['title']} "
-            f"(Similarity: {similarity_scores[i]:.2f})"
+            f"(Industry: {df.iloc[i]['industry']}, "
+            f"Similarity: {similarity_scores[i]:.2f})"
         )
 
         shown += 1
@@ -192,6 +210,7 @@ print("======================================")
 print("\nYou can enter:")
 print("1. Movie name")
 print("2. Industry name")
+
 print("\nExamples:")
 print("Avatar")
 print("Bollywood")
@@ -200,6 +219,12 @@ print("Marvel")
 print("DC")
 print("Animation")
 
+
+# ==============================
+# USER INPUT
+# ==============================
+
 movie = input("\nEnter movie or industry name: ")
 
 recommend(movie, 15)
+
