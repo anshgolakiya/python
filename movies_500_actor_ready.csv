@@ -1,0 +1,501 @@
+movie_id,title,genre,keywords,cast,director,description,industry
+1,Avatar,Action Adventure Fantasy,alien planet space survival,Sam Worthington Zoe Saldana Sigourney Weaver,James Cameron,A marine joins an alien world and fights to protect its people.,Hollywood
+2,Titanic,Drama Romance,love ship ocean tragedy,Leonardo DiCaprio | Kate Winslet Billy Zane,James Cameron,A young couple falls in love aboard a famous ocean liner.,Hollywood
+3,The Avengers,Action Adventure Sci-Fi,superhero marvel team alien,Robert Downey Jr | Chris Evans | Scarlett Johansson,Joss Whedon,Superheroes join forces to protect Earth from a powerful enemy.,Marvel
+4,Iron Man,Action Adventure Sci-Fi,superhero technology armor marvel,Robert Downey Jr | Gwyneth Paltrow Jeff Bridges,Jon Favreau,A genius inventor creates a powerful armored suit.,Marvel
+5,Interstellar,Sci-Fi Drama Adventure,space astronaut planet time,Matthew McConaughey | Anne Hathaway | Jessica Chastain,Christopher Nolan,Astronauts travel through space searching for a new home for humanity.,Hollywood
+6,Inception,Action Sci-Fi Thriller,dream heist mind technology,Leonardo DiCaprio | Joseph Gordon Levitt Tom Hardy,Christopher Nolan,A skilled thief enters dreams to steal valuable information.,Hollywood
+7,The Dark Knight,Action Crime Drama,batman joker superhero crime,Christian Bale | Heath Ledger Gary Oldman,Christopher Nolan,Batman faces a dangerous criminal who creates chaos in Gotham.,Hollywood
+8,Spider-Man: Homecoming,Action Adventure Sci-Fi,spider superhero school marvel,Tom Holland Michael Keaton Zendaya,Jon Watts,A young superhero balances school life with fighting criminals.,Marvel
+9,Jurassic Park,Adventure Sci-Fi Thriller,dinosaurs island science survival,Sam Neill Laura Dern Jeff Goldblum,Steven Spielberg,Scientists create a dinosaur park that becomes dangerously uncontrollable.,Hollywood
+10,The Matrix,Action Sci-Fi Thriller,computer virtual reality hacker,Keanu Reeves | Laurence Fishburne Carrie-Anne Moss,The Wachowskis,A computer hacker discovers that reality is a sophisticated simulation.,Hollywood
+11,Guardians of the Galaxy,Action Adventure Sci-Fi Comedy,space superhero marvel team,Chris Pratt Zoe Saldana Dave Bautista,James Gunn,A group of unusual heroes protects the galaxy from a powerful threat.,Marvel
+12,Doctor Strange,Action Adventure Fantasy,magic superhero marvel multiverse,Benedict Cumberbatch Rachel McAdams Chiwetel Ejiofor,Scott Derrickson,A surgeon learns mystical powers and protects reality from magical threats.,Marvel
+13,Black Panther,Action Adventure Sci-Fi,superhero wakanda africa marvel,Chadwick Boseman Michael B Jordan Lupita Nyong'o,Ryan Coogler,A new king protects Wakanda from an ambitious rival.,Marvel
+14,Thor,Action Adventure Fantasy,god superhero hammer marvel,Chris Hemsworth | Natalie Portman | Tom Hiddleston,Kenneth Branagh,A powerful god learns responsibility after being sent to Earth.,Marvel
+15,Captain America: The First Avenger,Action Adventure Sci-Fi,superhero soldier war marvel,Chris Evans | Hayley Atwell Hugo Weaving,Joe Johnston,A determined soldier becomes a super-powered hero during World War II.,Marvel
+16,Avengers: Infinity War,Action Adventure Sci-Fi,superhero infinity stone marvel thanos,Robert Downey Jr | Chris Hemsworth | Josh Brolin,Anthony Russo Joe Russo,Heroes across the universe unite against a powerful enemy seeking the Infinity Stones.,Marvel
+17,Avengers: Endgame,Action Adventure Sci-Fi,superhero time travel marvel thanos,Robert Downey Jr | Chris Evans | Mark Ruffalo,Anthony Russo Joe Russo,The surviving heroes attempt to reverse a devastating event.,Marvel
+18,Captain Marvel,Action Adventure Sci-Fi,superhero space marvel alien,Brie Larson | Samuel L Jackson | Jude Law,Anna Boden Ryan Fleck,A powerful pilot discovers her identity and protects Earth from an alien conflict.,Hollywood
+19,Ant-Man,Action Adventure Sci-Fi Comedy,superhero shrinking technology marvel,Paul Rudd Michael Douglas Evangeline Lilly,Peyton Reed,A thief becomes a tiny superhero using advanced technology.,Marvel
+20,Shang-Chi and the Legend of the Ten Rings,Action Adventure Fantasy,martial arts superhero rings marvel,Simu Liu Tony Leung Awkwafina,Destin Daniel Cretton,A martial artist confronts his family history and a powerful organization.,Hollywood
+21,Man of Steel,Action Adventure Sci-Fi,superhero krypton alien superman,Henry Cavill Amy Adams Michael Shannon,Zack Snyder,An alien-born hero protects Earth while discovering his origins.,DC
+22,Wonder Woman,Action Adventure Fantasy,superhero amazon war mythology,Gal Gadot Chris Pine Robin Wright,Patty Jenkins,An Amazon warrior enters a world war to stop a dangerous enemy.,DC
+23,Aquaman,Action Adventure Fantasy,superhero ocean underwater atlantis,Jason Momoa Amber Heard Willem Dafoe,James Wan,A hero must claim his place as ruler of an underwater kingdom.,DC
+24,The Batman,Action Crime Drama,batman detective gotham mystery,Robert Pattinson Zoe Kravitz Paul Dano,Matt Reeves,A young Batman investigates a mystery involving a dangerous criminal.,DC
+25,The Lord of the Rings: The Fellowship of the Ring,Adventure Fantasy Drama,magic ring middle earth quest,Elijah Wood Ian McKellen Viggo Mortensen,Peter Jackson,A young hobbit begins a dangerous quest to destroy a powerful ring.,Hollywood
+26,The Lord of the Rings: The Two Towers,Adventure Fantasy Drama,magic ring war middle earth,Elijah Wood Ian McKellen Viggo Mortensen,Peter Jackson,Heroes defend Middle-earth while the quest to destroy the ring continues.,Hollywood
+27,The Lord of the Rings: The Return of the King,Adventure Fantasy Drama,magic ring war middle earth,Elijah Wood Ian McKellen Viggo Mortensen,Peter Jackson,The final battle for Middle-earth begins as the ring approaches its destiny.,Hollywood
+28,Harry Potter and the Sorcerer's Stone,Adventure Fantasy Family,magic wizard school friendship,Daniel Radcliffe Emma Watson Rupert Grint,Chris Columbus,A young wizard begins his education at a magical school.,Hollywood
+29,Harry Potter and the Chamber of Secrets,Adventure Fantasy Mystery,magic wizard school monster,Daniel Radcliffe Emma Watson Rupert Grint,Chris Columbus,A mysterious threat appears inside a school for young wizards.,Hollywood
+30,Harry Potter and the Prisoner of Azkaban,Adventure Fantasy Mystery,magic wizard prison mystery,Daniel Radcliffe Emma Watson Gary Oldman,Alfonso Cuaron,A young wizard learns about a dangerous prisoner connected to his past.,Hollywood
+31,Harry Potter and the Goblet of Fire,Adventure Fantasy Mystery,magic wizard tournament dragon,Daniel Radcliffe Emma Watson Robert Pattinson,Mike Newell,A magical tournament places a young wizard in unexpected danger.,Hollywood
+32,Harry Potter and the Order of the Phoenix,Adventure Fantasy Drama,magic wizard rebellion school,Daniel Radcliffe Emma Watson Ralph Fiennes,David Yates,Young wizards organize resistance against a growing magical threat.,Hollywood
+33,Harry Potter and the Half-Blood Prince,Adventure Fantasy Mystery,magic wizard school dark magic,Daniel Radcliffe Emma Watson Alan Rickman,David Yates,A young wizard discovers clues about a powerful dark enemy.,Hollywood
+34,Harry Potter and the Deathly Hallows Part 1,Adventure Fantasy Drama,magic wizard quest horcrux,Daniel Radcliffe Emma Watson Rupert Grint,David Yates,Three young wizards leave school to search for magical objects.,Hollywood
+35,Harry Potter and the Deathly Hallows Part 2,Adventure Fantasy Action,magic wizard battle hogwarts,Daniel Radcliffe Emma Watson Rupert Grint,David Yates,The final battle between young wizards and dark forces reaches Hogwarts.,Hollywood
+36,Star Wars: A New Hope,Action Adventure Sci-Fi,space jedi rebellion empire,Mark Hamill Harrison Ford Carrie Fisher,George Lucas,A young hero joins a rebellion against a powerful space empire.,Bollywood
+37,Star Wars: The Empire Strikes Back,Action Adventure Sci-Fi,space jedi empire rebellion,Mark Hamill Harrison Ford Carrie Fisher,Irvin Kershner,Heroes face major challenges as the space empire strikes back.,Bollywood
+38,Star Wars: Return of the Jedi,Action Adventure Sci-Fi,space jedi empire rebellion,Mark Hamill Harrison Ford Carrie Fisher,Richard Marquand,The rebellion attempts to defeat the empire and restore freedom.,Bollywood
+39,Rogue One: A Star Wars Story,Action Adventure Sci-Fi,space rebellion mission empire,Felicity Jones Diego Luna Ben Mendelsohn,Gareth Edwards,A group of rebels undertakes a dangerous mission against an empire.,Bollywood
+40,Dune,Sci-Fi Adventure Drama,desert space politics prophecy,Timothee Chalamet Zendaya Rebecca Ferguson,Denis Villeneuve,A young noble enters a dangerous desert world filled with political conflict.,Hollywood
+41,Dune: Part Two,Sci-Fi Adventure Drama,desert war prophecy space,Timothee Chalamet Zendaya Rebecca Ferguson,Denis Villeneuve,A young leader joins desert warriors and prepares for a major conflict.,Hollywood
+42,Blade Runner 2049,Sci-Fi Mystery Thriller,future android detective technology,Ryan Gosling | Harrison Ford Ana de Armas,Denis Villeneuve,A futuristic detective discovers a secret that could change society.,Hollywood
+43,Arrival,Sci-Fi Drama Mystery,alien language communication space,Amy Adams Jeremy Renner Forest Whitaker,Denis Villeneuve,A linguist works to communicate with mysterious visitors from space.,Hollywood
+44,The Martian,Sci-Fi Adventure Drama,mars astronaut survival space,Matt Damon | Jessica Chastain Jeff Daniels,Ridley Scott,An astronaut stranded on Mars uses science and determination to survive.,Hollywood
+45,Gravity,Sci-Fi Thriller Drama,space astronaut survival,Sandra Bullock George Clooney Ed Harris,Alfonso Cuaron,Astronauts struggle to survive after an accident in orbit.,Hollywood
+46,Top Gun: Maverick,Action Drama,fighter pilot aviation military,Tom Cruise | Miles Teller Jennifer Connelly,Joseph Kosinski,An experienced pilot trains a new generation for a dangerous mission.,Hollywood
+47,Mission: Impossible - Fallout,Action Thriller Spy,spy mission stunt agent,Tom Cruise | Henry Cavill Rebecca Ferguson,Christopher McQuarrie,An elite agent races to stop a global threat.,Hollywood
+48,Mission: Impossible - Ghost Protocol,Action Thriller Spy,spy mission bomb agent,Tom Cruise | Jeremy Renner Simon Pegg,Brad Bird,A spy team works without official support to prevent a nuclear disaster.,Hollywood
+49,John Wick,Action Thriller Crime,assassin revenge gunfight,Keanu Reeves | Michael Nyqvist Ian McShane,Chad Stahelski,A retired assassin returns to action after a personal loss.,Hollywood
+50,John Wick: Chapter 2,Action Thriller Crime,assassin revenge crime,Keanu Reeves | Common Laurence Fishburne,Chad Stahelski,An assassin is forced back into the dangerous criminal underworld.,Hollywood
+51,John Wick: Chapter 3,Action Thriller Crime,assassin survival chase,Keanu Reeves | Halle Berry Ian McShane,Chad Stahelski,A hunted assassin fights to survive against skilled enemies.,Hollywood
+52,Mad Max: Fury Road,Action Adventure Sci-Fi,desert survival chase dystopia,Tom Hardy Charlize Theron Nicholas Hoult,George Miller,A group escapes across a dangerous post-apocalyptic desert.,Hollywood
+53,The Hunger Games,Action Adventure Sci-Fi Drama,dystopia survival competition rebellion,Jennifer Lawrence | Josh Hutcherson Woody Harrelson,Gary Ross,A young woman enters a dangerous televised survival competition.,Hollywood
+54,The Maze Runner,Action Sci-Fi Mystery,maze survival teenagers experiment,Dylan O'Brien Kaya Scodelario Thomas Brodie-Sangster,Wes Ball,A teenager wakes inside a mysterious maze with other young survivors.,Hollywood
+55,Ready Player One,Action Adventure Sci-Fi,virtual reality gaming future,Tye Sheridan Olivia Cooke Ben Mendelsohn,Steven Spielberg,A teenager enters a huge virtual world to compete for a valuable prize.,Hollywood
+56,Free Guy,Action Comedy Sci-Fi,video game virtual world hero,Ryan Reynolds Jodie Comer Taika Waititi,Shawn Levy,A bank employee discovers that he is actually a character in a video game.,Hollywood
+57,The Social Network,Drama Biography,facebook technology friendship startup,Jesse Eisenberg Andrew Garfield Justin Timberlake,David Fincher,A college student creates a social network that changes the world.,Hollywood
+58,Steve Jobs,Drama Biography,technology apple entrepreneur,Michael Fassbender Kate Winslet Seth Rogen,Danny Boyle,A technology entrepreneur prepares for major product launches.,Hollywood
+59,The Imitation Game,Drama Biography Thriller,computer code war mathematics,Benedict Cumberbatch Keira Knightley Matthew Goode,Morten Tyldum,A mathematician helps crack a wartime code using an early computer.,Hollywood
+60,Hidden Figures,Drama Biography History,nasa space mathematics equality,Taraji P Henson Octavia Spencer Janelle Monae,Theodore Melfi,Three mathematicians help a space program achieve historic goals.,Hollywood
+61,Oppenheimer,Drama Biography History,science atomic bomb war scientist,Cillian Murphy Emily Blunt | Robert Downey Jr,Christopher Nolan,A scientist leads a major wartime research project with historic consequences.,Hollywood
+62,The Pursuit of Happyness,Drama Biography Family,career father son motivation,Will Smith | Jaden Smith Thandiwe Newton,Gabriele Muccino,A struggling father works hard to build a better future for his son.,Hollywood
+63,Forrest Gump,Drama Romance Comedy,life friendship history journey,Tom Hanks | Robin Wright Gary Sinise,Robert Zemeckis,A kind man experiences major events while following his own path.,Hollywood
+64,The Shawshank Redemption,Drama Crime,prison friendship hope,Tim Robbins | Morgan Freeman | Bob Gunton,Frank Darabont,A prisoner builds friendship and hope while serving a long sentence.,Hollywood
+65,The Green Mile,Drama Fantasy Crime,prison supernatural friendship,Tom Hanks | Michael Clarke Duncan David Morse,Frank Darabont,A prison guard meets a mysterious prisoner with unusual abilities.,Hollywood
+66,Good Will Hunting,Drama Romance,genius friendship mathematics,Matt Damon | Robin Williams Ben Affleck,Gus Van Sant,A gifted young man receives guidance while dealing with personal struggles.,Hollywood
+67,A Beautiful Mind,Drama Biography Romance,mathematics genius friendship,Russell Crowe Jennifer Connelly Ed Harris,Ron Howard,A brilliant mathematician faces personal challenges while pursuing his work.,Hollywood
+68,The Theory of Everything,Drama Biography Romance,science physics love,Eddie Redmayne Felicity Jones Charlie Cox,James Marsh,A physicist and his partner face major personal and professional challenges.,Hollywood
+69,La La Land,Comedy Drama Romance,music jazz dreams love,Ryan Gosling | Emma Stone | John Legend,Damien Chazelle,Two artists pursue their dreams while falling in love in Los Angeles.,Hollywood
+70,The Notebook,Drama Romance,love relationship memory,Ryan Gosling | Rachel McAdams James Garner,Nick Cassavetes,A lifelong love story is remembered through an old notebook.,Hollywood
+71,Crazy Rich Asians,Comedy Drama Romance,wedding family wealth love,Constance Wu Henry Golding Michelle Yeoh,Jon M Chu,A young woman meets her partner's wealthy family in Singapore.,Hollywood
+72,The Fault in Our Stars,Drama Romance,teen love illness friendship,Shailene Woodley Ansel Elgort Laura Dern,Josh Boone,Two teenagers meet and form a deep relationship while facing illness.,Hollywood
+73,Me Before You,Drama Romance,love disability relationship,Emilia Clarke Sam Claflin Janet McTeer,Thea Sharrock,A young woman becomes a caregiver and develops a close relationship with her employer.,Hollywood
+74,Notting Hill,Comedy Romance,love celebrity bookstore london,Hugh Grant Julia Roberts Rhys Ifans,Roger Michell,A bookstore owner falls in love with a famous actress.,Hollywood
+75,The Proposal,Comedy Romance,office marriage alaska,Sandra Bullock Ryan Reynolds Betty White,Anne Fletcher,A boss creates a fake engagement with her assistant to solve a work problem.,Hollywood
+76,Friends with Benefits,Comedy Romance,relationship friendship dating,Justin Timberlake Mila Kunis Patricia Clarkson,Will Gluck,Two friends try to keep romance separate from their friendship.,Hollywood
+77,Superbad,Comedy,school friendship party teenagers,Jonah Hill Michael Cera Christopher Mintz-Plasse,Greg Mottola,High school friends try to attend a memorable party before graduation.,Animation
+78,The Hangover,Comedy,las vegas wedding friendship party,Bradley Cooper Ed Helms Zach Galifianakis,Todd Phillips,Friends wake up after a wild night and try to remember what happened.,Hollywood
+79,Jumanji: Welcome to the Jungle,Action Adventure Comedy Fantasy,game jungle teenagers survival,Dwayne Johnson | Kevin Hart Jack Black,Jake Kasdan,Teenagers become characters inside a dangerous video game.,Hollywood
+80,Pirates of the Caribbean: The Curse of the Black Pearl,Action Adventure Fantasy,pirates treasure ocean curse,Johnny Depp | Orlando Bloom Keira Knightley,Gore Verbinski,A pirate captain helps rescue a kidnapped woman from cursed pirates.,Hollywood
+81,The Mummy,Action Adventure Fantasy,ancient egypt treasure curse,Brendan Fraser Rachel Weisz John Hannah,Stephen Sommers,Adventurers awaken an ancient mummy while searching for treasure.,Hollywood
+82,National Treasure,Action Adventure Mystery,treasure history clues secret,Nicolas Cage Diane Kruger Justin Bartha,Jon Turteltaub,A historian searches for a legendary treasure using historical clues.,Hollywood
+83,Sherlock Holmes,Action Adventure Mystery,detective london mystery crime,Robert Downey Jr | Jude Law Rachel McAdams,Guy Ritchie,A famous detective investigates a dangerous mystery in Victorian London.,Hollywood
+84,Knives Out,Comedy Crime Mystery,detective murder mansion family,Daniel Craig Ana de Armas | Chris Evans,Rian Johnson,A detective investigates a mysterious death inside a wealthy family.,Hollywood
+85,Murder on the Orient Express,Crime Drama Mystery,detective train murder mystery,Kenneth Branagh Penelope Cruz | Johnny Depp,Kenneth Branagh,A detective investigates a murder aboard a luxury train.,Hollywood
+86,The Conjuring,Horror Mystery Thriller,haunted house ghost family,Vera Farmiga Patrick Wilson Lili Taylor,James Wan,Paranormal investigators help a family facing supernatural activity.,Hollywood
+87,Insidious,Horror Mystery Thriller,ghost house supernatural family,Patrick Wilson Rose Byrne Lin Shaye,James Wan,A family discovers that a supernatural force has entered their home.,Hollywood
+88,A Quiet Place,Horror Sci-Fi Thriller,monsters survival family silence,Emily Blunt John Krasinski Millicent Simmonds,John Krasinski,A family survives in silence while dangerous creatures hunt by sound.,Hollywood
+89,It,Horror Drama,clown children friendship fear,Bill Skarsgard Jaeden Martell Finn Wolfhard,Andy Muschietti,A group of children faces a terrifying supernatural creature.,Hollywood
+90,The Exorcist,Horror Drama Mystery,demon possession priest family,Ellen Burstyn Linda Blair Max von Sydow,William Friedkin,A family seeks help when a child appears to be possessed.,Hollywood
+91,Get Out,Horror Mystery Thriller,family racism hypnosis mystery,Daniel Kaluuya Allison Williams Bradley Whitford,Jordan Peele,A young man discovers disturbing secrets while visiting his girlfriend's family.,Hollywood
+92,A Quiet Place Part II,Horror Sci-Fi Thriller,monsters survival family sound,Emily Blunt Cillian Murphy Millicent Simmonds,John Krasinski,A family continues searching for safety in a world ruled by creatures that hunt by sound.,Hollywood
+93,Train to Busan,Action Horror Thriller,zombies train survival outbreak,Gong Yoo Jung Yu-mi Ma Dong-seok,Yeon Sang-ho,Passengers fight to survive a zombie outbreak aboard a train.,Hollywood
+94,World War Z,Action Horror Sci-Fi,zombies outbreak survival world,Brad Pitt | Mireille Enos Daniella Kertesz,Marc Forster,A former investigator travels the world searching for a way to stop a zombie outbreak.,Bollywood
+95,Zombieland,Comedy Horror Action,zombie survival comedy road trip,Jesse Eisenberg Woody Harrelson | Emma Stone,Ruben Fleischer,Survivors travel across a zombie-filled America while following their own rules.,Hollywood
+96,The Grand Budapest Hotel,Comedy Drama Adventure,hotel friendship mystery europe,Ralph Fiennes Tony Revolori Adrien Brody,Wes Anderson,A hotel concierge and his young assistant become involved in a mysterious adventure.,Hollywood
+97,The Wolf of Wall Street,Comedy Crime Drama,stock market money fraud ambition,Leonardo DiCaprio | Jonah Hill Margot Robbie,Martin Scorsese,A stockbroker builds a wealthy lifestyle through risky and illegal financial schemes.,Hollywood
+98,Catch Me If You Can,Crime Drama Biography,con artist FBI identity fraud,Leonardo DiCaprio | Tom Hanks | Christopher Walken,Steven Spielberg,A young con artist stays ahead of an FBI agent while changing identities.,Hollywood
+99,The Departed,Crime Drama Thriller,police mafia undercover crime,Leonardo DiCaprio | Matt Damon | Jack Nicholson,Martin Scorsese,An undercover police officer and a criminal informant work inside rival organizations.,Hollywood
+100,Fight Club,Drama Thriller,identity rebellion friendship underground,Brad Pitt | Edward Norton Helena Bonham Carter,David Fincher,A dissatisfied worker forms an underground club that grows beyond control.,Hollywood
+101,The Prestige,Drama Mystery Sci-Fi,magic rivalry illusion obsession,Christian Bale | Hugh Jackman | Scarlett Johansson,Christopher Nolan,Two rival magicians become obsessed with creating the perfect illusion.,Hollywood
+102,Memento,Mystery Thriller Drama,memory detective revenge crime,Guy Pearce Carrie-Anne Moss Joe Pantoliano,Christopher Nolan,A man with short-term memory loss investigates a mysterious crime.,Hollywood
+103,Shutter Island,Mystery Thriller Drama,island detective mental mystery,Leonardo DiCaprio | Mark Ruffalo | Ben Kingsley,Martin Scorsese,A detective investigates a disappearance at an isolated hospital.,Hollywood
+104,Gone Girl,Mystery Thriller Drama,marriage disappearance media crime,Ben Affleck Rosamund Pike Neil Patrick Harris,David Fincher,A man's life changes when his wife disappears under suspicious circumstances.,Hollywood
+105,The Girl with the Dragon Tattoo,Crime Mystery Thriller,hacker investigation murder mystery,Daniel Craig Rooney Mara Christopher Plummer,David Fincher,A journalist and hacker investigate a decades-old disappearance.,Hollywood
+106,The Truman Show,Comedy Drama Sci-Fi,television reality life mystery,Jim Carrey Laura Linney Ed Harris,Peter Weir,A man slowly discovers that his entire life is being filmed for television.,Hollywood
+107,Back to the Future,Adventure Comedy Sci-Fi,time travel car teenager,Michael J Fox Christopher Lloyd Lea Thompson,Robert Zemeckis,A teenager travels through time using a modified car.,Hollywood
+108,Terminator 2: Judgment Day,Action Sci-Fi,robot time travel future,Arnold Schwarzenegger Linda Hamilton Edward Furlong,James Cameron,A future soldier and a reprogrammed robot protect a young target.,Hollywood
+109,Alien,Horror Sci-Fi Thriller,space creature survival crew,Sigourney Weaver Tom Skerritt John Hurt,Ridley Scott,A space crew encounters a deadly creature aboard their spacecraft.,Hollywood
+110,Aliens,Action Horror Sci-Fi,space marines alien survival,Sigourney Weaver Michael Biehn Paul Reiser,James Cameron,A team of space marines confronts a dangerous alien colony.,Hollywood
+111,Edge of Tomorrow,Action Sci-Fi,time loop alien war soldier,Tom Cruise | Emily Blunt Bill Paxton,Doug Liman,A soldier relives the same battle repeatedly while fighting an alien invasion.,Hollywood
+112,Pacific Rim,Action Sci-Fi Adventure,robots monsters ocean battle,Charlie Hunnam Idris Elba Rinko Kikuchi,Guillermo del Toro,Giant robots fight enormous creatures emerging from the ocean.,Hollywood
+113,The Fifth Element,Action Sci-Fi Adventure,future space alien mission,Bruce Willis Milla Jovovich Gary Oldman,Luc Besson,A cab driver becomes involved in a mission to save the future.,Hollywood
+114,Men in Black,Action Comedy Sci-Fi,aliens secret agents government,Will Smith | Tommy Lee Jones Linda Fiorentino,Barry Sonnenfeld,Secret agents protect Earth from hidden alien activity.,Hollywood
+115,E.T. the Extra-Terrestrial,Adventure Sci-Fi Family,alien friendship children space,Henry Thomas Drew Barrymore Dee Wallace,Steven Spielberg,A child helps a stranded alien return home.,Hollywood
+116,How to Train Your Dragon,Animation Adventure Fantasy,dragon friendship vikings flying,Jay Baruchel Gerard Butler America Ferrera,Chris Sanders Dean DeBlois,A young Viking becomes friends with a dragon and changes his village.,Animation
+117,Toy Story,Animation Comedy Adventure,toys friendship childhood,Tom Hanks | Tim Allen Don Rickles,John Lasseter,Living toys learn about friendship when a new toy arrives.,Animation
+118,Finding Nemo,Animation Adventure Comedy,ocean fish family friendship,Albert Brooks Ellen DeGeneres Alexander Gould,Andrew Stanton,A father fish crosses the ocean to find his missing son.,Animation
+119,The Lion King,Animation Adventure Drama,lion family kingdom friendship,Matthew Broderick Jeremy Irons James Earl Jones,Roger Allers Rob Minkoff,A young lion learns to accept his responsibility as king.,Animation
+120,Coco,Animation Adventure Fantasy,music family mexico memory,Anthony Gonzalez Gael Garcia Bernal Benjamin Bratt,Lee Unkrich Adrian Molina,A young musician enters the world of the dead to discover his family history.,Animation
+121,Inside Out,Animation Comedy Drama,emotions childhood family,Amy Poehler Phyllis Smith Bill Hader,Pete Docter,A girl's emotions help her adapt to a major change in her life.,Animation
+122,Up,Animation Adventure Comedy,house journey friendship,Ed Asner Christopher Plummer Jordan Nagai,Pete Docter,An elderly man travels to a distant place with a young companion.,Animation
+123,Ratatouille,Animation Comedy Drama,cooking chef paris food,Patton Oswalt Ian Holm Lou Romano,Brad Bird,A talented rat dreams of becoming a chef in Paris.,Animation
+124,Iron Man 2,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+125,Iron Man 3,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+126,Thor: The Dark World,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+127,Captain America: The Winter Soldier,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+128,Avengers: Age of Ultron,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+129,Captain America: Civil War,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+130,Guardians of the Galaxy Vol. 2,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+131,Thor: Ragnarok,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+132,Ant-Man and the Wasp,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+133,Spider-Man: Far From Home,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+134,Black Widow,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+135,Eternals,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+136,Spider-Man: No Way Home,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+137,Doctor Strange in the Multiverse of Madness,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+138,Thor: Love and Thunder,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+139,Black Panther: Wakanda Forever,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+140,Ant-Man and the Wasp: Quantumania,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+141,Guardians of the Galaxy Vol. 3,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+142,The Marvels,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+143,Deadpool,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+144,Deadpool 2,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+145,Deadpool & Wolverine,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+146,X-Men,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+147,X2,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+148,X-Men: The Last Stand,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+149,X-Men: First Class,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+150,The Wolverine,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+151,X-Men: Days of Future Past,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+152,X-Men: Apocalypse,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+153,Dark Phoenix,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+154,Logan,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+155,Fantastic Four,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+156,Fantastic Four: Rise of the Silver Surfer,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+157,Venom,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+158,Venom: Let There Be Carnage,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+159,Venom: The Last Dance,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+160,Morbius,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+161,Madame Web,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+162,Blade,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+163,Blade II,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+164,Blade: Trinity,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+165,Ghost Rider,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+166,Ghost Rider: Spirit of Vengeance,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+167,Daredevil,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+168,Elektra,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+169,The Incredible Hulk,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+170,Spider-Man,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+171,Spider-Man 2,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+172,Spider-Man 3,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+173,The Amazing Spider-Man,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+174,The Amazing Spider-Man 2,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+175,Hulk,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+176,Punisher: War Zone,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+177,The Punisher,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+178,Kick-Ass,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+179,Kick-Ass 2,Action Adventure Sci-Fi,marvel movie story characters adventure,,,,Marvel
+180,Superman,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+181,Superman II,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+182,Superman III,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+183,Superman IV: The Quest for Peace,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+184,Batman,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+185,Batman Returns,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+186,Batman Forever,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+187,Batman & Robin,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+188,Batman Begins,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+189,The Dark Knight Rises,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+190,Batman v Superman: Dawn of Justice,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+191,Suicide Squad,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+192,Justice League,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+193,Shazam!,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+194,Birds of Prey,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+195,Wonder Woman 1984,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+196,The Suicide Squad,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+197,Black Adam,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+198,Shazam! Fury of the Gods,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+199,The Flash,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+200,Aquaman and the Lost Kingdom,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+201,Joker,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+202,Joker: Folie à Deux,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+203,Watchmen,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+204,V for Vendetta,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+205,Constantine,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+206,300,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+207,300: Rise of an Empire,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+208,Batman: Mask of the Phantasm,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+209,Batman: Under the Red Hood,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+210,The Lego Batman Movie,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+211,The Lego Movie,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+212,Green Lantern,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+213,Catwoman,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+214,Jonah Hex,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+215,Steel,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+216,Batman: The Killing Joke,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+217,Justice League: War,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+218,Justice League Dark,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+219,Teen Titans Go! To the Movies,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+220,Superman Returns,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+221,Supergirl,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+222,The League of Extraordinary Gentlemen,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+223,RED,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+224,RED 2,Action Adventure Fantasy,dc movie story characters adventure,,,,DC
+225,3 Idiots,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+226,Lagaan,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+227,Dil Chahta Hai,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+228,Zindagi Na Milegi Dobara,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+229,Dangal,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+230,PK,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+231,Bajrangi Bhaijaan,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+232,Andhadhun,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+233,Gully Boy,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+234,Queen,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+235,Barfi!,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+236,Taare Zameen Par,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+237,Swades,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+238,Rang De Basanti,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+239,Rockstar,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+240,Tamasha,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+241,Yeh Jawaani Hai Deewani,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+242,Wake Up Sid,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+243,Jab We Met,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+244,Om Shanti Om,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+245,Chak De! India,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+246,My Name Is Khan,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+247,Kabhi Khushi Kabhie Gham,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+248,Kuch Kuch Hota Hai,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+249,Dilwale Dulhania Le Jayenge,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+250,Kal Ho Naa Ho,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+251,Veer-Zaara,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+252,Mohabbatein,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+253,Don,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+254,Don 2,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+255,War,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+256,Pathaan,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+257,Jawan,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+258,Raees,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+259,Dhoom,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+260,Dhoom 2,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+261,Dhoom 3,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+262,Krrish,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+263,Krrish 3,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+264,Bang Bang!,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+265,Ek Tha Tiger,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+266,Tiger Zinda Hai,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+267,Tiger 3,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+268,Sultan,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+269,M.S. Dhoni: The Untold Story,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+270,Uri: The Surgical Strike,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+271,Drishyam,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+272,Drishyam 2,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+273,Tumbbad,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+274,Kahaani,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+275,Kahaani 2,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+276,Special 26,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+277,Baby,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+278,A Wednesday!,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+279,Neerja,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+280,Pink,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+281,Article 15,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+282,Talvar,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+283,Piku,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+284,Hindi Medium,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+285,Stree,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+286,Stree 2,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+287,Bhool Bhulaiyaa,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+288,Bhool Bhulaiyaa 2,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+289,Bhool Bhulaiyaa 3,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+290,Munna Bhai M.B.B.S.,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+291,Lage Raho Munna Bhai,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+292,Hera Pheri,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+293,Phir Hera Pheri,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+294,Welcome,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+295,Welcome Back,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+296,Golmaal,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+297,Golmaal Returns,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+298,Golmaal 3,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+299,Golmaal Again,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+300,Singham,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+301,Singham Returns,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+302,Simmba,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+303,Sooryavanshi,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+304,KGF: Chapter 1,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+305,KGF: Chapter 2,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+306,Baahubali: The Beginning,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+307,Baahubali 2: The Conclusion,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+308,RRR,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+309,Pushpa: The Rise,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+310,Pushpa 2: The Rule,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+311,Kantara,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+312,Vikram Vedha,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+313,Kabir Singh,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+314,Animal,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+315,Rocky Aur Rani Kii Prem Kahaani,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+316,Brahmastra: Part One – Shiva,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+317,Bhaag Milkha Bhaag,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+318,Mary Kom,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+319,Shershaah,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+320,Kesari,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+321,Sam Bahadur,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+322,12th Fail,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+323,Laal Singh Chaddha,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+324,Jugjugg Jeeyo,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+325,Kapoor & Sons,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+326,Dear Zindagi,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+327,Highway,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+328,Raazi,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+329,Udta Punjab,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+330,Haider,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+331,Omkara,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+332,Maqbool,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+333,Devdas,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+334,Black,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+335,Guzaarish,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+336,Padmaavat,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+337,Bajirao Mastani,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+338,Ram-Leela,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+339,Lootera,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+340,Masaan,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+341,Newton,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+342,Article 370,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+343,Crew,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+344,Mardaani,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+345,Mardaani 2,Drama Romance,bollywood movie story characters adventure,,,,Bollywood
+346,The Godfather,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+347,The Godfather Part II,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+348,Pulp Fiction,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+349,The Good the Bad and the Ugly,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+350,12 Angry Men,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+351,Schindler's List,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+352,The Silence of the Lambs,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+353,Saving Private Ryan,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+354,Se7en,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+355,The Usual Suspects,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+356,Léon: The Professional,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+357,Gladiator,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+358,Back to the Future Part II,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+359,Back to the Future Part III,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+360,Terminator,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+361,Terminator 3: Rise of the Machines,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+362,Terminator Salvation,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+363,Terminator Genisys,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+364,Alien 3,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+365,Alien: Resurrection,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+366,Prometheus,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+367,Alien: Covenant,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+368,Men in Black II,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+369,Men in Black 3,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+370,The Lost World: Jurassic Park,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+371,Jurassic Park III,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+372,Jurassic World,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+373,Jurassic World: Fallen Kingdom,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+374,Jurassic World Dominion,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+375,Jaws,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+376,Indiana Jones and the Raiders of the Lost Ark,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+377,Indiana Jones and the Temple of Doom,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+378,Indiana Jones and the Last Crusade,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+379,Indiana Jones and the Kingdom of the Crystal Skull,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+380,The Matrix Reloaded,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+381,The Matrix Revolutions,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+382,The Matrix Resurrections,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+383,Dunkirk,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+384,Tenet,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+385,Blade Runner,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+386,Apollo 13,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+387,2001: A Space Odyssey,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+388,A Clockwork Orange,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+389,Full Metal Jacket,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+390,The Shining,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+391,It Chapter Two,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+392,The Conjuring 2,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+393,The Conjuring: The Devil Made Me Do It,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+394,Insidious: Chapter 2,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+395,The Sixth Sense,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+396,Us,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+397,Hereditary,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+398,The Babadook,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+399,Scream,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+400,Scream 2,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+401,Scream 3,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+402,Scream 4,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+403,Scream VI,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+404,Halloween,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+405,Friday the 13th,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+406,A Nightmare on Elm Street,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+407,The Texas Chain Saw Massacre,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+408,Psycho,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+409,Vertigo,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+410,Rear Window,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+411,Citizen Kane,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+412,Casablanca,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+413,Gone with the Wind,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+414,Lawrence of Arabia,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+415,Apocalypse Now,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+416,Taxi Driver,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+417,Raging Bull,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+418,Goodfellas,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+419,Casino,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+420,Once Upon a Time in Hollywood,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+421,Django Unchained,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+422,Inglourious Basterds,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+423,Kill Bill: Vol. 1,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+424,Kill Bill: Vol. 2,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+425,Reservoir Dogs,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+426,The Hateful Eight,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+427,The Revenant,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+428,The Terminal,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+429,Cast Away,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+430,Saving Mr. Banks,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+431,A Beautiful Day in the Neighborhood,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+432,The Curious Case of Benjamin Button,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+433,The Great Gatsby,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+434,Whiplash,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+435,Birdman,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+436,Black Swan,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+437,The Pianist,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+438,The Intouchables,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+439,Amélie,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+440,Moonrise Kingdom,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+441,Fantastic Mr. Fox,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+442,Isle of Dogs,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+443,The Royal Tenenbaums,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+444,The French Dispatch,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+445,No Country for Old Men,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+446,There Will Be Blood,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+447,Fargo,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+448,The Big Lebowski,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+449,"O Brother, Where Art Thou?",Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+450,True Grit,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+451,The Iron Giant,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+452,The Bourne Identity,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+453,The Bourne Supremacy,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+454,The Bourne Ultimatum,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+455,Mission: Impossible,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+456,Mission: Impossible 2,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+457,Mission: Impossible III,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+458,Mission: Impossible – Ghost Protocol,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+459,Mission: Impossible – Rogue Nation,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+460,Mission: Impossible – Fallout,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+461,Mission: Impossible – Dead Reckoning Part One,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+462,Top Gun,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+463,Die Hard,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+464,Die Hard 2,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+465,Die Hard with a Vengeance,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+466,Lethal Weapon,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+467,Lethal Weapon 2,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+468,Speed,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+469,Point Break,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+470,The Rock,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+471,Con Air,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+472,Face/Off,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+473,Heat,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+474,Collateral,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+475,Drive,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+476,John Wick: Chapter 3 – Parabellum,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+477,John Wick: Chapter 4,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+478,Mad Max 2,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+479,Furiosa: A Mad Max Saga,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+480,The Hunger Games: Catching Fire,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+481,The Hunger Games: Mockingjay – Part 1,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+482,The Hunger Games: Mockingjay – Part 2,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+483,Divergent,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+484,War of the Worlds,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+485,Minority Report,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+486,Total Recall,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+487,RoboCop,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+488,Predator,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+489,Prey,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+490,Independence Day,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+491,Armageddon,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+492,The Day After Tomorrow,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+493,2012,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+494,I Am Legend,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+495,A.I. Artificial Intelligence,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+496,War Horse,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+497,Lincoln,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+498,Bridge of Spies,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+499,The Fabelmans,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
+500,West Side Story,Drama Thriller,hollywood movie story characters adventure,,,,Hollywood
