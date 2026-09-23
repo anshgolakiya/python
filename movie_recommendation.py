@@ -11,6 +11,26 @@ df = pd.read_csv("movies_500_real_titles.csv")
 
 
 # ============================================================
+# CHECK REQUIRED COLUMNS
+# ============================================================
+
+required_columns = [
+    "title",
+    "genre",
+    "keywords",
+    "cast",
+    "director",
+    "description",
+    "industry"
+]
+
+for column in required_columns:
+    if column not in df.columns:
+        print("Error: Column not found:", column)
+        exit()
+
+
+# ============================================================
 # FILL EMPTY VALUES
 # ============================================================
 
@@ -26,14 +46,14 @@ df[features] = df[features].fillna("")
 
 
 # ============================================================
-# COMBINE MOVIE FEATURES
+# CREATE COMBINED FEATURES
 # ============================================================
 
 df["combined"] = df[features].agg(" ".join, axis=1)
 
 
 # ============================================================
-# TF-IDF
+# TF-IDF VECTORIZATION
 # ============================================================
 
 vectorizer = TfidfVectorizer(
@@ -56,8 +76,7 @@ similarity_matrix = cosine_similarity(
 
 
 # ============================================================
-# NORMALIZE MOVIE TITLES
-# CASE-INSENSITIVE
+# NORMALIZE TITLE
 # ============================================================
 
 df["title_normalized"] = (
@@ -71,7 +90,6 @@ df["title_normalized"] = (
 
 # ============================================================
 # NORMALIZE INDUSTRY
-# CASE-INSENSITIVE
 # ============================================================
 
 df["industry_normalized"] = (
@@ -83,7 +101,31 @@ df["industry_normalized"] = (
 
 
 # ============================================================
-# CREATE MOVIE TITLE INDEX
+# NORMALIZE CAST
+# ============================================================
+
+df["cast_normalized"] = (
+    df["cast"]
+    .astype(str)
+    .str.strip()
+    .str.casefold()
+)
+
+
+# ============================================================
+# NORMALIZE DIRECTOR
+# ============================================================
+
+df["director_normalized"] = (
+    df["director"]
+    .astype(str)
+    .str.strip()
+    .str.casefold()
+)
+
+
+# ============================================================
+# TITLE INDEX
 # ============================================================
 
 title_index = pd.Series(
@@ -93,126 +135,161 @@ title_index = pd.Series(
 
 
 # ============================================================
-# CREATE INDUSTRY LIST
+# INDUSTRY LIST
 # ============================================================
 
-industries = df["industry_normalized"].unique()
+industries = set(
+    df["industry_normalized"].unique()
+)
 
 
 # ============================================================
-# RECOMMENDATION FUNCTION
+# ACTOR SEARCH
 # ============================================================
 
-def recommend(movie_name, count=15):
+def search_actor(actor_name, count):
 
-    # Convert count to integer
-    count = int(count)
+    actor_input = actor_name.strip().casefold()
 
-    # Make sure count is positive
-    if count <= 0:
-        count = 15
-
-    # ========================================================
-    # NORMALIZE USER INPUT
-    # CASE-INSENSITIVE
-    # ========================================================
-
-    user_input = movie_name.strip().casefold()
-
-    # ========================================================
-    # CHECK IF USER ENTERED INDUSTRY
-    # ========================================================
-
-    if user_input in industries:
-
-        industry_movies = df[
-            df["industry_normalized"] == user_input
-        ]
-
-        # Randomly shuffle movies
-        industry_movies = industry_movies.sample(
-            frac=1
+    result = df[
+        df["cast_normalized"].str.contains(
+            actor_input,
+            regex=False,
+            na=False
         )
+    ]
 
-        print("\n======================================")
-        print("       MOVIES FROM INDUSTRY")
-        print("======================================")
+    if len(result) == 0:
+        return False
+
+    print("\n======================================")
+    print("           ACTOR MOVIES")
+    print("======================================")
+
+    print("Actor:", actor_name)
+    print("Movies found:", len(result))
+
+    print("--------------------------------------")
+
+    for number, (_, row) in enumerate(
+        result.head(count).iterrows(),
+        1
+    ):
 
         print(
-            "Industry:",
-            industry_movies.iloc[0]["industry"]
+            f"{number}. {row['title']} "
+            f"({row['industry']})"
         )
 
-        print()
-
-        # Display movies
-        for number, (_, row) in enumerate(
-            industry_movies.head(count).iterrows(),
-            1
-        ):
-
-            print(
-                f"{number}. {row['title']} "
-                f"({row['industry']})"
-            )
-
-        return
+    return True
 
 
-    # ========================================================
-    # CHECK IF USER ENTERED MOVIE
-    # ========================================================
+# ============================================================
+# DIRECTOR SEARCH
+# ============================================================
 
-    if user_input not in title_index:
+def search_director(director_name, count):
 
-        print("\n======================================")
-        print("          MOVIE NOT FOUND")
-        print("======================================")
+    director_input = director_name.strip().casefold()
+
+    result = df[
+        df["director_normalized"].str.contains(
+            director_input,
+            regex=False,
+            na=False
+        )
+    ]
+
+    if len(result) == 0:
+        return False
+
+    print("\n======================================")
+    print("         DIRECTOR MOVIES")
+    print("======================================")
+
+    print("Director:", director_name)
+    print("Movies found:", len(result))
+
+    print("--------------------------------------")
+
+    for number, (_, row) in enumerate(
+        result.head(count).iterrows(),
+        1
+    ):
 
         print(
-            "\nThe movie is not available "
-            "in our dataset."
+            f"{number}. {row['title']} "
+            f"({row['industry']})"
         )
+
+    return True
+
+
+# ============================================================
+# INDUSTRY SEARCH
+# ============================================================
+
+def search_industry(industry_name, count):
+
+    industry_input = industry_name.strip().casefold()
+
+    result = df[
+        df["industry_normalized"] == industry_input
+    ]
+
+    if len(result) == 0:
+        return False
+
+    result = result.sample(
+        frac=1,
+        random_state=None
+    )
+
+    print("\n======================================")
+    print("          INDUSTRY MOVIES")
+    print("======================================")
+
+    print(
+        "Industry:",
+        result.iloc[0]["industry"]
+    )
+
+    print("Movies found:", len(result))
+
+    print("--------------------------------------")
+
+    for number, (_, row) in enumerate(
+        result.head(count).iterrows(),
+        1
+    ):
 
         print(
-            "\nHere are some random movies "
-            "from our dataset:"
+            f"{number}. {row['title']}"
         )
 
-        print("--------------------------------------")
-
-        random_movies = df.sample(
-            n=min(count, len(df))
-        )
-
-        for number, (_, row) in enumerate(
-            random_movies.iterrows(),
-            1
-        ):
-
-            print(
-                f"{number}. {row['title']} "
-                f"({row['industry']})"
-            )
-
-        return
+    return True
 
 
-    # ========================================================
-    # GET SELECTED MOVIE INDEX
-    # ========================================================
+# ============================================================
+# MOVIE RECOMMENDATION
+# ============================================================
 
-    index = title_index[user_input]
+def recommend_movie(movie_name, count):
 
+    movie_input = movie_name.strip().casefold()
 
-    # ========================================================
-    # SHOW SELECTED MOVIE
-    # ========================================================
+    # Check movie
+    if movie_input not in title_index:
+        return False
 
+    # Get movie index
+    index = title_index[movie_input]
+
+    # Get selected movie
     selected_movie = df.iloc[index]
 
     print("\n======================================")
-    print("          SELECTED MOVIE")
+    print("           SELECTED MOVIE")
     print("======================================")
 
     print(
@@ -235,7 +312,11 @@ def recommend(movie_name, count=15):
         selected_movie["director"]
     )
 
-    # Show description if available
+    print(
+        "Cast        :",
+        selected_movie["cast"]
+    )
+
     if str(selected_movie["description"]).strip():
 
         print(
@@ -245,7 +326,7 @@ def recommend(movie_name, count=15):
 
 
     # ========================================================
-    # CALCULATE SIMILARITY
+    # GET SIMILARITY SCORES
     # ========================================================
 
     similarity_scores = similarity_matrix[index]
@@ -254,7 +335,7 @@ def recommend(movie_name, count=15):
 
 
     # ========================================================
-    # SHOW RECOMMENDATIONS
+    # DISPLAY RECOMMENDATIONS
     # ========================================================
 
     print("\n======================================")
@@ -265,7 +346,7 @@ def recommend(movie_name, count=15):
 
     for i in movie_indices:
 
-        # Do not recommend the selected movie
+        # Do not show selected movie
         if i == index:
             continue
 
@@ -273,6 +354,7 @@ def recommend(movie_name, count=15):
             f"{shown + 1}. "
             f"{df.iloc[i]['title']} "
             f"(Industry: {df.iloc[i]['industry']}, "
+            f"Genre: {df.iloc[i]['genre']}, "
             f"Similarity: {similarity_scores[i]:.2f})"
         )
 
@@ -281,25 +363,118 @@ def recommend(movie_name, count=15):
         if shown == count:
             break
 
+    return True
+
 
 # ============================================================
-# MAIN PROGRAM
+# RANDOM MOVIES
+# ============================================================
+
+def random_movies(count):
+
+    print("\n======================================")
+    print("          RANDOM MOVIES")
+    print("======================================")
+
+    result = df.sample(
+        n=min(count, len(df))
+    )
+
+    for number, (_, row) in enumerate(
+        result.iterrows(),
+        1
+    ):
+
+        print(
+            f"{number}. {row['title']} "
+            f"({row['industry']})"
+        )
+
+
+# ============================================================
+# MAIN RECOMMENDATION FUNCTION
+# ============================================================
+
+def recommend(user_input, count=15):
+
+    user_input = str(user_input).strip()
+
+    if user_input == "":
+        print("\nPlease enter a movie, actor, director or industry.")
+        return
+
+
+    # ========================================================
+    # 1. MOVIE
+    # ========================================================
+
+    if recommend_movie(user_input, count):
+        return
+
+
+    # ========================================================
+    # 2. ACTOR
+    # ========================================================
+
+    if search_actor(user_input, count):
+        return
+
+
+    # ========================================================
+    # 3. DIRECTOR
+    # ========================================================
+
+    if search_director(user_input, count):
+        return
+
+
+    # ========================================================
+    # 4. INDUSTRY
+    # ========================================================
+
+    if search_industry(user_input, count):
+        return
+
+
+    # ========================================================
+    # NOT FOUND
+    # ========================================================
+
+    print("\n======================================")
+    print("             NOT FOUND")
+    print("======================================")
+
+    print(
+        "\nMovie, actor, director or industry "
+        "was not found in the dataset."
+    )
+
+    print("\nShowing random movies instead:")
+
+    random_movies(count)
+
+
+# ============================================================
+# PROGRAM START
 # ============================================================
 
 print("======================================")
 print("     MOVIE RECOMMENDATION SYSTEM")
 print("======================================")
 
-print("\nYou can enter:")
+print("\nYou can search using:")
 
 print("1. Movie name")
-print("2. Industry name")
+print("2. Actor name")
+print("3. Director name")
+print("4. Industry name")
 
 print("\nExamples:")
 
 print("Avatar")
-print("avatar")
-print("AVATAR")
+print("Leonardo DiCaprio")
+print("Robert Downey Jr")
+print("Christopher Nolan")
 print("Bollywood")
 print("Hollywood")
 print("Marvel")
@@ -311,13 +486,37 @@ print("Animation")
 # USER INPUT
 # ============================================================
 
-movie = input(
-    "\nEnter movie or industry name: "
+user_input = input(
+    "\nEnter movie, actor, director or industry: "
 )
 
 
 # ============================================================
-# CALL RECOMMENDATION FUNCTION
+# NUMBER OF RECOMMENDATIONS
 # ============================================================
 
-recommend(movie, 15)
+count_input = input(
+    "How many movies do you want? (default 15): "
+)
+
+if count_input.strip() == "":
+    count = 15
+else:
+    try:
+        count = int(count_input)
+
+        if count <= 0:
+            count = 15
+
+    except ValueError:
+        count = 15
+
+
+# ============================================================
+# RUN SYSTEM
+# ============================================================
+
+recommend(
+    user_input,
+    count
+)
